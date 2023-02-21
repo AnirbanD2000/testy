@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style>
+     <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+  <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><h1>Testy<span>.</span></h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav">
+        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+       </ul>
+     </div>
+     <button class="butn"><a href="#tablebook" id="book">Book a Table</a></button>
+    </div> 
+   </nav>
+
+<!-----HOME----->
+  <div id="home">
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-6 col-md-12">
+          <h1 class="text">Enjoy Your Healthy <br> Delicious Food</h1>
+          <p id="para">Sed autem laudantium dolores. Voluptatem itaque ea <br> consequatur eveniet. Eum quas beatae cumque eum <br> quaerat.</p>
+          <div class="bhtn d-flex">  
+            <button class="butn1"><a href="#tablebook" id="book">Book a Table</a></button>
+            <a href="https://www.youtube.com/watch?v=Lw7EixBGu60" class="vdo">
+              <i class="fa-regular fa-circle-play"></i>
+              <span>Watch Video</span>
+            </a>
+          </div>   
+        </div>
+      <div class="col-lg-6 col-md-12">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner hfood">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="./css/images/home/h01.jpg"  alt="h01" id="photo">
+            </div>
+            <div class="carousel-item" data-bs-interval="100">
+              <img src="./css/images/home/h02.jpg"  alt="h02" id="photo">
+            </div>
+            <div class="carousel-item">
+              <img src="./css/images/home/h03.jpg"  alt="h03" id="photo">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+<!--- ABOUT --->
+  <div id="about">
+    <div class="box">
+      <p id="para1">ABOUT US</p>
+      <h1 class="text1">Learn More</h1>
+    </div>
+    <div class="container box2">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <img src="./css/images/about/restro.jpg" alt="restro" id="restro">
+        </div>
+        <div class="col-lg-5 col-md-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+            sed do eiusmod tempor incididunt ut labore et dolore <br>
+            magna aliqua.</p>
+            <div class="list">
+              <i class="fa-solid fa-check-double"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo <br> consequat.</p> 
+            </div>
+            <div class="list">
+              <i class="fa-solid fa-check-double"></i>
+              <p>Duis aute irure dolor in reprehenderit in voluptate <br> velit.</p> 
+            </div>
+            <div class="list">
+              <i class="fa-solid fa-check-double"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo <br>
+                consequat. Duis aute irure dolor in reprehenderit <br>
+                in voluptate trideta storacalaperda mastiro dolore <br>
+                eu fugiat nulla pariatur.</p> 
+            </div> 
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse <br> 
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>
+              cupidatat non proident.</p> 
+            <img src="./css/images/about/food.jpg" alt="food" id="food">    
+        </div>    
+      </div>
+    </div>
+  </div>  
+  
+  <!-- Big photo -->
+  <div class="bgphoto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 txt">
+          <h3>250</h3>
+          <p>clients</p>
+        </div>
+        <div class="col-lg-3 col-md-6 txt">
+          <h3>540</h3>
+          <p>Projects</p>
+        </div>
+        <div class="col-lg-3 col-md-6 txt">
+          <h3>1750</h3>
+          <p>Hours of Support</p>
+        </div>
+        <div class="col-lg-3 col-md-6 txt">
+          <h3>40</h3>
+          <p>Workers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Menu -->
+  <div id="menu">
+    <div class="Mbox">
+      <p id="para2">OUR MENU</p>
+      <h1 class="text2">Check Our</h1>
+    </div>
+    <div class="menus">
+      <button class="start"><a href="#bfmenu1" id="st">starters</a></button>
+      <button class="start"><a href="#bfmenu2" id="br">Breakfast</a></button>
+      <button class="start"><a href="#bfmenu3" id="ln">Lunch</a></button>
+      <button class="start"><a href="#bfmenu4" id="dn">Dinner</a></button>
+    </div>
+    <div class="mfoods" id="bfmenu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12" id="bfmenu3">
+            <img src="./css/images/menu/page1/m01.jpg" alt="01" id="fdphoto">
+            <h4>Sushi</h4>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+            <h2 id="price">₹545.00</h2>
+          </div>
+          <div class="col-lg-4 col-md-12" id="bfmenu2">
+            <img src="./css/images/menu/page1/m02.jpg" alt="02" id="fdphoto">
+            <h4>Butter Chicken</h4>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+            <h2 id="price">₹325.00</h2>
+          </div>
+          <div class="col-lg-4 col-md-12" id="bfmenu1">
+            <img src="./css/images/menu/page1/m03.jpg" alt="03" id="fdphoto">
+            <h4>Est Eligendi</h4>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+            <h2 id="price">₹499.00</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <img src="./css/images/menu/page1/m04.jpg" alt="04" id="fdphoto">
+            <h4>Steak</h4>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+            <h2 id="price">₹799.00</h2>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <img src="./css/images/menu/page1/m05.jpg" alt="05" id="fdphoto">
+            <h4>Laboriosam Direva</h4>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+            <h2 id="price">₹623.00</h2>
+          </div>
+          <div class="col-lg-4 col-md-12" id="bfmenu4">
+            <img src="./css/images/menu/page1/m06.jpg" alt="06" id="fdphoto">
+            <h4>Green Salad</h4>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+            <h2 id="price">₹659.00</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Events -->
+  <div id="events">
+    <div class="Ebox">
+      <p id="para3">EVENTS</p>
+      <h1 class="text3">Share</h1>  
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner Eparty">
+        <div class="carousel-item active" data-bs-interval="500">
+          <div class="d-flex">
+            <img src="./css/images/events/E01.jpg" alt="e01" id="Efoods">
+            <img src="./css/images/events/E02.jpg" alt="e02" id="Efoods" class="hide">
+            <img src="./css/images/events/E03.jpg" alt="e03" id="Efoods" class="hide">
+          </div>  
+        </div>
+        <div class="carousel-item" data-bs-interval="500">
+          <div class="d-flex">
+            <img src="./css/images/events/E01.jpg" alt="e01" id="Efoods" class="hide">
+            <img src="./css/images/events/E02.jpg" alt="e02" id="Efoods">
+            <img src="./css/images/events/E03.jpg" alt="e03" id="Efoods" class="hide">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex">
+            <img src="./css/images/events/E01.jpg" alt="e01" id="Efoods" class="hide">
+            <img src="./css/images/events/E02.jpg" alt="e02" id="Efoods" class="hide">
+            <img src="./css/images/events/E03.jpg" alt="e03" id="Efoods">
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <!-- Chefs -->
+  <div id="chefs">
+    <div class="Cbox">
+      <p id="para4">CHEFS</p>
+      <h1 class="text4">Proffesional</h1>
+    </div>
+    <div class="cforchefs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="cooks1">
+              <div class="social">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>  
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-12">
+              <div class="cooks2">
+                <div class="social1">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-12">
+              <div class="cooks3">
+                <div class="social2">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table Booking -->
+  <div id="tablebook">
+    <div class="TBbox">
+      <p id="para5">BOOK A TABLE</p>
+      <h1 class="text5">Your</h1>
+    </div>
+    <div class="Tbk">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <img src="./css/images/booktable/table.jpg" alt="table" id="table">
+          </div>
+          <div class="col-lg-8 col-md-12">
+            <div class="container frmsection">
+              <div class="row">
+                <div class="col-lg-4 col-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Name</label>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-6">
+                  <div class="form-floating mb-3">
+                    <input type="phonenumber" class="form-control" id="floatingInput" placeholder="phonenumber">
+                    <label for="floatingInput">Phone Number</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-6">
+                  <div class="form-floating mb-3">
+                    <input type="datetime" class="form-control" id="floatingInput" placeholder="datetime">
+                    <label for="floatingInput">Date</label>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-6">
+                  <div class="form-floating mb-3">
+                    <input type="datetime" class="form-control" id="floatingInput" placeholder="datetime">
+                    <label for="floatingInput">Time</label>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-6">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="number">
+                    <label for="floatingInput">People</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-floating mb-3 message">
+              <input type="text" class="form-control" id="floatingInput1" placeholder="message">
+              <label for="floatingInput1">Message</label>
+            </div>
+            <div id="liveAlertPlaceholder"></div>
+            <div class="tbtn">
+              <button type="button" class="bookbattn" id="liveAlertBtn">Book a Table</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contacts -->
+  <div id="contact">
+    <div class="Cntbox">
+      <p id="para6">CONTACT</p>
+      <h1 class="text6">Need Help?</h1>
+    </div>
+    <div class="location">
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58918.806754232064!2d88.43513211456539!3d22.63792177778264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fcc7186f70f5608!2sDimond%20mall!5e0!3m2!1sen!2sin!4v1676494341916!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="adrrs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 d-flex">
+            <i class="fa-regular fa-map" id="icon"></i>
+            <section class="kol"> 
+              <h4 id="hdding">Our Adress</h4>
+              <p>Dimond mall, 7/27, Kolkata, West Bengal 700028</p>
+            </section>  
+          </div>
+          <div class="col-lg-6 col-md-12 d-flex">
+            <i class="fa-regular fa-envelope" id="icon"></i>
+            <section class="ceml"> 
+              <h4 id="hdding">Email Us</h4>
+              <p>dhalianirban@email.com</p>
+            </section>
+          </div>
+        </div>
+        <div class="row" id="loctn">
+          <div class="col-lg-6 col-md-12 d-flex">
+            <i class="fa fa-phone" id="icon"></i>
+            <section class="cnum"> 
+              <h4 id="hdding">Call Us</h4>
+              <p>+033 2248 5600</p>
+            </section>
+          </div>
+          <div class="col-lg-6 col-md-12 d-flex">
+            <i class="fa-regular fa-clock" id="icon"></i>
+            <section class="hours"> 
+              <h4 id="hdding">Opening Hours</h4>
+              <p>Mon-Sat: 08AM - 23PM; Sunday: Closed</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div class="frms d-flex">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput20" placeholder="name" required>
+          <label for="floatingInput20">Name</label>
+        </div>
+        <div class="form-floating mb-3 Cemlbox">
+          <input type="email" class="form-control" id="floatingInput20" placeholder="name@example.com" required>
+          <label for="floatingInput20">Email address</label>
+        </div>
+      </div>
+      <div class="frms1">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput21" placeholder="Subject" required>
+          <label for="floatingInput21">Subject</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput22" placeholder="message" required>
+          <label for="floatingInput22">Message</label>
+        </div>
+      </div>
+      <div class="msgbtn">
+       <button type="submit" class="messagebtn">Send Message</button>
+      </div>  
+    </form>  
+  </div>
+
+  <!-- Footer -->
+  <div class="Fbox">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 d-flex" id="Finfo">
+          <i class="fa-solid fa-location-dot" id="ficon"></i>
+          <section class="bengal">
+            <h5>Address</h5>
+            <p>Dimond mall, 7/27, Kolkata, <br> West Bengal 700028</p>
+          </section>
+        </div>
+        <div class="col-lg-3 col-md-12 d-flex" id="Finfo">
+          <i class="fa fa-phone" id="ficon"></i>
+          <section class="bengal">
+            <h5>Reservations</h5>
+            <p>+033 2248 5600 <br>dhalianirban@email.com </p>
+          </section>
+        </div>
+        <div class="col-lg-3 col-md-12 d-flex" id="Finfo">
+          <i class="fa-regular fa-clock" id="ficon"></i>
+          <section class="bengal">
+            <h5>Opening Hours</h5>
+            <p>Mon-Sat: 08AM - 23PM <br> Sunday: Closed</p>
+          </section>
+        </div>
+        <div class="col-lg-3 col-md-12" id="Finfo">
+          <h5 id="follow">Follow Us</h5>
+          <section class="bengal">
+            <i class="fa-brands fa-linkedin" id="ficonsocial"></i>
+            <i class="fa-brands fa-facebook" id="ficonsocial"></i>
+            <i class="fa-brands fa-instagram" id="ficonsocial"></i>
+            <i class="fa-brands fa-twitter" id="ficonsocial"></i>
+          </section>
+        </div>
+      </div>
+    </div>
+    <hr class="hr">
+    <div class="credit">
+      <p>© Copyright Testy. All Rights Reserved</p>
+      <p>Designed by Anirban Dhali</p>
+    </div>  
+  </div>
+
+  <script src="https://kit.fontawesome.com/b31b77267c.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
