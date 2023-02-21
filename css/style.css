@@ -1,0 +1,660 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    z-index: 1000;
+}
+.navbar-brand h1 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.navbar-brand span {
+    color: #11822d;
+    font-size: 50px;
+}
+.navbar-expand-lg .collapse {
+    justify-content: center;
+}
+.collapse ul {
+    font-family: 'Poppins', sans-serif;
+    gap: 40px;
+}
+ul li {
+    font-weight: bolder;
+    cursor: pointer;
+}
+ul li:hover {
+    border-bottom: 2px solid #11822d;
+}
+.butn {
+    font-size: 14px;
+    font-weight: 500;
+    background: #11822d;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.butn:hover {
+    background-color: #56b46e;
+}
+#book {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* HOME */
+#home {
+    margin-top: 20px;
+    width: 100%;
+}
+.text {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 0.8;
+    margin-top: 100px;
+}
+#para {
+    font-weight: 600;
+}
+.butn1 {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #11822d;
+    border: none;
+    width: 165px;
+    height: 45px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.butn1:hover {
+    background-color: #56b46e;
+}
+.vdo {
+    text-decoration: none;
+    margin-left: 30px;
+    display: flex;
+}
+.fa-circle-play {
+    color: #11822d;
+    font-size: 30px;
+    padding: 10px;
+}
+.fa-circle-play:hover {
+    color: #56b46e;
+}
+.vdo span {
+    color: black;
+    font-size: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+#photo {
+    width: 450px;
+    height: 450px;
+}
+.hfood {
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+/* ABOUT */
+#about {
+    margin-top: 100px;
+    width: 100%;
+}
+.box {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;     
+}
+#para1 {
+    font-size: 15px;
+}
+.text1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+}
+.text1::after {
+    content: "  About Us";
+    color: #11822d;
+}
+.box2 {
+    margin-top: 50px;
+}
+#restro {
+    width: 600px;
+    height: 700px;
+}
+.list {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+.fa-check-double {
+    padding-left:  20px;
+    color: #11822d;
+}
+#food {
+    width: 450px;
+    height: 260px;
+    padding-top: 10px;
+}
+
+/* Big photo */
+.bgphoto {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px 0;
+    background-image: url("./images/bimage/bgimage.jpg");
+    background-size: 100% 800px;
+    background-attachment: fixed; 
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.txt {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+.txt h3 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* menu */
+#menu {
+    padding-top: 20px;
+    width: 100%;
+}
+.Mbox {
+    text-align: center;
+    width: 100%;
+}
+#para2 {
+    font-size: 15px;
+}
+.text2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+}
+.text2::after {
+    content: "  Testy Menu";
+    color: #11822d;
+}
+.menus {
+    margin-top: 20px;
+    text-align: center;
+}
+.start {
+    background: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.start:hover {
+    border-bottom: 2px solid #11822d;
+}
+#st, #br, #ln, #dn {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+#st:hover, #br:hover, #ln:hover, #dn:hover {
+    color: #11822d;
+}
+.mfoods {
+    margin-top: 20px;
+    text-align: center;
+}
+#fdphoto {
+    width: 330px;
+    height: 305px;
+    padding: 20px;
+}
+#price {
+    color: #11822d;
+}
+
+/* Events */
+#events {
+    padding-top: 100px;
+    width: 100%;
+}
+.Ebox {
+    text-align: center;
+    width: 100%;
+}
+#para3 {
+    font-size: 15px;
+}
+.text3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+    text-align: center;
+}
+.text3::after {
+    content: "  Your Moments";
+    color: #11822d;
+}
+.Eparty {
+    width: 100%;
+    margin-top: 50px;
+}
+#Efoods {
+    width: 450px;
+    height: 600px;
+    padding: 0 2px;
+}
+
+/* Chefs*/
+#chefs {
+    padding-top: 100px;
+    width: 100%;
+}
+.Cbox {
+    text-align: center;
+    width: 100%;
+}
+#para4 {
+    font-size: 15px;
+}
+.text4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+    text-align: center;
+    color: #11822d;
+}
+.text4::after {
+    content: "  Chefs";
+    color: black;
+}
+.text4::before {
+    content: "Our  ";
+    color: black;
+}
+.cforchefs {
+    margin-top: 50px;
+}
+.cooks1 {
+    background-image: url("./images/chefs/c1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 450px;
+}
+.cooks2 {
+    background-image: url("./images/chefs/c2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 450px;
+}
+.cooks3 {
+    background-image: url("./images/chefs/c3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 450px;
+}
+.cooks1:hover, .cooks2:hover, .cooks3:hover {
+    width: 350px;
+    height: 460px;
+    transition: 0.3s;
+}
+.social, .social1, .social2 {
+    display: none;
+    border-radius: 10px;
+}
+.cooks1:hover .social {
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: 0.7s;
+    margin-top: 50px;
+}
+.cooks1:hover .social i {
+    display: block;
+    margin: 15px;
+    font-size: 20px;
+}
+.cooks2:hover .social1 {
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: 0.7s;
+    margin-top: 50px;
+}
+.cooks2:hover .social1 i {
+    display: block;
+    margin: 15px;
+    font-size: 20px;
+}
+.cooks3:hover .social2 {
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: 0.7s;
+    margin-top: 50px;
+}
+.cooks3:hover .social2 i {
+    display: block;
+    margin: 15px;
+    font-size: 20px;
+}
+
+/* Tble Booking */
+#tablebook {
+    margin-top: 100px;
+    width: 100%;
+}
+.TBbox {
+    text-align: center;
+    width: 100%;
+}
+#para5 {
+    font-size: 15px;
+}
+.text5 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+    text-align: center;
+    color: #11822d;
+}
+.text5::after {
+    content: "  Stay";
+    color: black;
+}
+.text5::before {
+    content: "Book  ";
+    color: black;
+}
+.Tbk{
+    margin-top: 50px;
+}
+#table {
+    width: 100%;
+    height: 470px;
+}
+.frmsection {
+    margin-top: 50px;
+}
+#floatingInput {
+    width: 100%;
+    border: 1px solid #11822d;
+}
+#floatingInput1 {
+    width: 688px;
+    height: 150px;
+    border: 1px solid #11822d;
+}
+.message {
+    margin-left: 24px;
+}
+.tbtn {
+    text-align: center;
+}
+.bookbattn {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #11822d;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.bookbattn:hover {
+    background-color: #56b46e;
+}
+
+
+/* Contacts */
+#contact {
+    margin-top: 200px;
+    width: 100%;
+}
+.Cntbox {
+    text-align: center;
+    width: 100%;
+}
+#para6 {
+    font-size: 15px;
+}
+.text6 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+    text-align: center;
+}
+.text6::after {
+    content: "  Contact Us";
+    color: #11822d;
+}
+.location {
+    margin-top: 50px;
+}
+#map {
+    width: 100%;
+    height: 365px;
+    border-left: 95px solid white;
+    border-right: 95px solid white;
+}
+.adrrs {
+    margin-top: 50px;
+}
+#loctn {
+    margin-top: 100px;
+}
+#icon {
+    background-color: #11822d;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0;
+}
+.kol {
+    padding-left: 20px;
+}
+.ceml {
+    padding-left: 20px;
+}
+.cnum {
+    padding-left: 20px;
+}
+.hours {
+    padding-left: 20px;
+}
+#hdding {
+    color: rgb(93, 92, 92);
+}
+.frms {
+    padding-top: 100px;
+    margin: 0 30px;
+}
+#floatingInput20 {
+    width: 640px;
+    border: 1px solid #11822d;
+}
+.Cemlbox {
+    margin-left: 10px;
+}
+.frms1 {
+    margin: 0 30px;
+}
+#floatingInput21 {
+    width: 100%;
+    border: 1px solid #11822d;
+}
+#floatingInput22 {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #11822d;
+}
+.msgbtn {
+    text-align: center;
+    margin-top: 40px;
+}
+.messagebtn {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #11822d;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+/* Footer */
+.Fbox {
+    background-color: #1f1f24;
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    color: white;
+}
+#Finfo {
+    margin-top: 50px;
+}
+.bengal {
+    padding-left: 20px;
+}
+#ficon {
+    font-size: 20px;
+    margin-top: 5px;
+}
+#follow {
+    padding-left: 20px;
+}
+#ficonsocial {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+}
+.hr {
+    margin: 40px 40px;
+}
+.credit {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-light .navbar-toggler-icon {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        z-index: 9993;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        max-width: 400px;
+        border-left: 1px solid #666;
+        bottom: 0;
+        transition: 0.3s;
+        z-index: 9997;
+    }
+    .text1, .text2, .text3, .text4, .text5, .text6 {
+        font-size: 35px;
+    }
+    #photo {
+        width: 100%;
+        height: 300px;
+        margin: 0 -24px;
+    }
+    #restro {
+        width: 100%;
+        height: 500px;
+    }
+    #food {
+        width: 100%;
+        height: 260px;
+        padding-top: 10px;
+    }
+    .bgphoto {
+        margin-top: 100px;
+        margin-bottom: 150px;
+        padding: 140px 0;
+        background-image: url(./images/bimage/bgimage.jpg);
+        background-size: 100% 660px;
+        background-attachment: fixed;
+        height: 660px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    #st, #br, #ln, #dn {
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        padding: 10px;
+    }
+    #Efoods {
+        width: 100%;
+        height: 600px;
+        padding: 0px 0px;
+    }
+    .hide {
+        display: none;
+    }
+    .cooks1, .cooks2, .cooks3 {
+        width: 100%;
+    }
+    .message {
+        margin-left: 0;
+    }
+    #floatingInput1 {
+        width: 100%;
+        height: 150px;
+        border: 1px solid #11822d;
+    }
+    #map {
+        width: 100%;
+        height: 365px;
+        border: none;
+    }
+    #loctn {
+        margin-top: 10px;
+    }
+    #floatingInput20 {
+        width: 100%;
+        border: 1px solid #11822d;
+    }
+    .Fbox {
+        background-color: #1f1f24;
+        width: 100%;
+        height: 800px;
+        margin-top: 120px;
+        color: white;
+    }
+    #Finfo {
+        margin: 35px;
+    }
+}
+
+
+
